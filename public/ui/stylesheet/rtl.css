@@ -1,0 +1,41 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+.owl-carousel.owl-loaded.owl-drag {
+    direction: ltr;
+}
+.wpcf7 input[type="url"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"] {
+    direction: rtl!important;
+}
+
+[data-aos=fade-left] {
+    -webkit-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
+}
+
+[data-aos=fade-right] {
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+}
+
+
+@media (min-width: 768px) {
+   
+}
+@media (max-width: 1366px) {
+   
+}
+
+@media(max-width:1024px){
+    
+}
+
+@media(max-width:991px){
+   
+}
+
+@media(max-width:767px){
+   
+
+}
